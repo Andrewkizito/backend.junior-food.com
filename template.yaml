@@ -14,7 +14,11 @@ Globals:
     Runtime: python3.9
 
 Resources:
-  
+  RestAPI:
+    Type: AWS::ApiGateway::RestApi
+    Properties:
+      Name: Junior-Food
+      Description: A simple food deliver app
 
 Outputs:
   HelloEfsApi:
